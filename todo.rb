@@ -177,5 +177,3 @@ post "/lists/:id/complete_all" do
   session[:success] = "All todo items have been marked as complete."
     redirect"/lists/#{@list_id}"
 end
-
-
