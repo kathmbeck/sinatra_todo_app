@@ -6,6 +6,7 @@ require 'sinatra/content_for'
 configure do
   enable :sessions
   set :session_secret, 'secret'
+  set :erb, :escape_html => true
 end
 
 helpers do
